@@ -1,0 +1,104 @@
+* {box-sizing: border-box;}
+body {
+    color: rgb(129, 10, 10);
+    background-image: url(redCodeBackground.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-image: linear-gradient(to bottom, darkgrey, grey);
+}
+main {
+    margin-left: 160px;
+    padding: 10px;
+    border-style: solid;
+}
+ul {
+    list-style: none;
+}
+nav {
+    float: left;
+    clear: both;
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(92, 117, 117);
+    border-style: solid;
+}
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    transition: color 2s linear;
+}
+nav a:link {
+    color: blue;
+}
+nav a:visited {
+    color: purple;
+}
+nav a:hover {
+    color: rgb(0, 255, 34);
+}
+table {
+    background-color: rgb(216, 137, 137);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: 5px solid rgb(75, 27, 41);
+    color: rgb(75, 27, 41);
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0;
+}
+td, th {
+    border: 5px solid rgb(75, 27, 41);
+    color: rgb(75, 27, 41);
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+tr:nth-of-type(even) {
+    background-color: rgb(146, 74, 74);
+}
+footer {
+    font-style: italic;
+    font-size: small;
+    clear: both;
+    background-image: linear-gradient(to bottom, grey, darkgrey);
+}
+label {
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    display: block;
+    text-align: right;
+    width: 50%;
+    padding: 5px;
+}
+input {
+    display: block;
+    margin: 20px;
+}
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    margin-left: 50%;
+}
+.text {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+    text-align: center;
+    background-color: grey;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border: 2.5px;
+    border-style: solid;
+}
